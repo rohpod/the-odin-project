@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe - Grilled Cheese</title>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html"> <h1>HOME</h1></a>
+    </header>
+    <main>
+      <h2>Grilled Cheese</h2>
+      <img
+        src="https://www.recipetineats.com/tachyon/2023/07/Grilled-Cheese-sandwich-photo-main.jpg?resize=900%2C1125&zoom=1"
+        height="500"
+        alt="Grilled Cheese"
+      />
+      <hr />
+      <p>
+        A grilled cheese sandwich is not diet food. So when I have one, it has
+        to be great! Crispy, salty, buttery exterior and oozy, molten cheese
+        inside. Are you ready to meet the ultimate cheese toastie??
+      </p>
+      <h4>Ingredients</h4>
+      <ul>
+        <li>Salt</li>
+        <li>Sugar</li>
+      </ul>
+      <form action="/submit_form" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your name"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="you@example.com"
+          />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Your message here..."
+          ></textarea>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <h4>Steps</h4>
+      <ol>
+        <li>Heat the pan</li>
+        <li>Pour oil</li>
+      </ol>
+    </main>
+    <footer>
+      <h4>Made with <3 by Rohan!</h4>
+    </footer>
+  </body>
+</html>
